@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    background-color: aqua;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 100px;
+}
+
+.tab {
+    
+    
+    padding-top: 20px;
+}
+
+.tab-nome {
+    padding: 20px;
+    
+}
+
+
+
+header {
+    background: white;
+    border-radius: 10px;
+    
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+}
+
+
+footer {
+    
+    background-color: rgb(180, 255, 249);
+    
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    top: 21.8em;
+    width: 100%;
+}
+
+.rodapé {
+    padding: 20px
+}
