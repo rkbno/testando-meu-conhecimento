@@ -5,9 +5,7 @@
 }
 
 
-html {
-    background-color: aqua;
-}
+
 
 body {
     position: relative;
@@ -17,7 +15,7 @@ nav {
     background-color: white;
     text-align: center;
     border-radius: 10px;
-    margin: 100px;
+    margin: 20px 50px 100px;
 }
 
 .tab {
@@ -33,25 +31,30 @@ nav {
 
 
 
-header {
+section {
     background: white;
     border-radius: 10px;
-    
+    padding-bottom: 50px;
     padding: 15px;
     width: 300px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    text-align: center;
+}
+
+img {
+    padding-top: 20px;
 }
 
 
 footer {
     
     background-color: rgb(180, 255, 249);
-    
+    margin-top: 150px;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     position: absolute;
-    top: 21.8em;
+    top: 24.3em;
     width: 100%;
 }
 
