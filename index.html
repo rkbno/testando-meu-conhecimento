@@ -31,7 +31,24 @@
         <div class="rodapé">@rkbno</div>
     </footer>
     
-
+    <script src="/jquery-3.6.3.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+        
+        $('#msg').fadeOut('').fadeIn('999999')
+
+        $('.nome-botao').on('click', botao)
+
+        function botao () {
+            $('.tab-nome').remove()
+            $('.tab').css({'padding-bottom':'20px'})
+        }
+        
+        
+        
+
+console.log('FIM!')
+    </script>
 </body>
 </html>
