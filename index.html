@@ -7,16 +7,13 @@
     <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="carregar()">
+<body">
+
     <nav class="layout">
         <h1 class="tab">Tabuada</h1>
-        <div>
-            <div class="tab-nome">Qual seu nome? <input type="text" name="nome" id="txtn">
-            <input class="nome-botao" type="button" value="Enviar" onclick="enviar ()"></div>
-        </div>
     </nav>
 
-    <section>
+    <section class="quadrado">
         <div id="msg">Olá</div>
 
         <div id="foto">
@@ -34,8 +31,7 @@
     <script src="/jquery-3.6.3.min.js"></script>
     <script src="script.js"></script>
 
-    <script>
-        
+    <script> 
         $('#msg').fadeOut('').fadeIn('999999')
 
         $('.nome-botao').on('click', botao)
@@ -44,11 +40,6 @@
             $('.tab-nome').remove()
             $('.tab').css({'padding-bottom':'20px'})
         }
-        
-        
-        
-
-console.log('FIM!')
     </script>
 </body>
 </html>
